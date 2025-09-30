@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   web:
-    build: .
+    image: quangduc88/docker-ci-demo:latest
     ports:
       - "3000:3000"
+    restart: always
